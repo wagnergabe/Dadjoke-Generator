@@ -17,21 +17,6 @@ generateJoke();
 //     .then(data => { jokeEl.innerHTML = data.joke } )
 // };
 
-// async function generateJoke() {
-//   const config = {
-//     headers: {
-//       Accept: "application/json",
-//     },
-//   };
-
-//   const url = "https://icanhazdadjoke.com";
-
-//   const response = await fetch(url, config);
-
-//   const data = await response.json();
-
-//   jokeEl.innerHTML = data.joke;
-//}
 
 async function generateJoke() {
   const url = "https://icanhazdadjoke.com";
