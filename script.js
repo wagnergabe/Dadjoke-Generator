@@ -19,8 +19,8 @@ generateJoke();
 
 async function generateJoke() {
   const config = {
-    header: {
-      Accept: "application.json",
+    headers: {
+      Accept: "application/json",
     },
   };
 
